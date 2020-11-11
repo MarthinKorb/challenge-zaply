@@ -28,11 +28,15 @@ Aplicação que permite você criar, listar, editar, deletar e filtrar seus prod
 
 Clone esse repositório rodando o comando:
 
-    git clone https://github.com/MarthinKorb/
+    git clone https://github.com/MarthinKorb/challenge-zaply.git
 
 ---
 
-Abra o terminal na pasta do projeto e instale as dependências rodando o comando:
+**Acesse a pasta zaply-web usando o comando**
+
+    cd zaply-web
+
+Após, instale as dependências rodando o comando:
 
     yarn
 
