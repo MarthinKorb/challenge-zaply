@@ -54,6 +54,36 @@ Também foi criada uma API com NodeJS e banco de dados Postgres para conectar co
 
     https://github.com/MarthinKorb/challenge-zaply/tree/master/zaply-server
 
+
+# Sobre as tecnologias utilizadas
+
+## ReactJS
+
+  É uma biblioteca de Javascript para construir interfaces de usuário.
+
+## TypeScript
+
+  TypeScript é um superset para JavaScript, ou um conjunto adicional de instruções, keywords e estruturas, criado pela Microsoft. Em suma, ele adiciona tipagens ao código Javascript. Usado para dar mais consistência nos dados que transitam na aplicação.
+
+
+## Styled-Components
+
+  Biblioteca para React e React Native que nos permite criar componentes, estilizando com CSS dentro do Javascript.
+  Podemos criar componentes com tags HTML ou com outras libs, tal como MaterialUI ou Bootstrap.
+
+## Jest
+
+  Framework para testes de código em Javascript.
+
+## Axios
+
+  É um cliente HTTP baseado em Promises para fazer requisições. Utilizamos o axios para conectar com a api.
+
+
+## Yup
+
+  Utilizado para validação de dados vindos de inputs.
+
 **Feito!** ✔
 
 ---
