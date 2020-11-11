@@ -1,4 +1,4 @@
-# Zaply Challange 🛠
+# Zaply Challenge 🛠
 
 **Lista de Produtos**
 
@@ -6,9 +6,9 @@ Aplicação que permite você criar, listar, editar, deletar e filtrar seus prod
 
 ---
 
-## Tecnologias Utilizadas:
+### Tecnologias Utilizadas:
 
-#### ReactJS, Typescript, StyledComponents, Jest, Axios, Yup,
+## ReactJS, Typescript, StyledComponents, Jest, Axios, Yup,
 
 ---
 
@@ -83,6 +83,10 @@ Também foi criada uma API com NodeJS e banco de dados Postgres para conectar co
 ## Yup
 
   Utilizado para validação de dados vindos de inputs.
+  
+  
+  
+
 
 **Feito!** ✔
 
