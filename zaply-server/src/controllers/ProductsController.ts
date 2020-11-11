@@ -7,9 +7,23 @@ import * as Yup from "yup";
 
 export default {
   async index(request: Request, response: Response) {
+    const search = request.query.q;
+
     const productsRepository = getRepository(Product);
 
-    const products = await productsRepository.find();
+    if (search) {
+      const foundProducts = await productsRepository.find({
+        where: {
+          categories: search,
+        },
+      });
+      return response.status(200).json(foundProducts);
+    }
+    const products = await productsRepository.find({
+      order: {
+        name: "ASC",
+      },
+    });
 
     return response.status(200).json(products);
   },
