@@ -54,19 +54,19 @@ const ModalAddProduct: React.FC<IModalProps> = ({
           Adicionar novo produto
         </h1>
         <label htmlFor="name">Nome</label>
-        <Input name="name" />
+        <Input name="name" required placeholder="Nome do produto" />
 
         <label htmlFor="image">Imagem</label>
-        <Input name="image" />
+        <Input name="image" required placeholder="Link da imagem" />
 
         <label htmlFor="categories">Categoria</label>
-        <Input name="categories" />
+        <Input name="categories" required placeholder="Categoria" />
 
         <label htmlFor="brand">Marca</label>
-        <Input name="brand" />
+        <Input name="brand" required placeholder="Marca" />
 
         <label htmlFor="price">Preço</label>
-        <Input name="price" />
+        <Input name="price" required placeholder="Preço" />
 
         <button type="submit" data-testid="add-product-button">
           <p className="text">Adicionar</p>
