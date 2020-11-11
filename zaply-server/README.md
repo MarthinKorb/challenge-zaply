@@ -1,4 +1,4 @@
-## Zaply Challenge\*\*\* 🛠
+## Zaply Challenge 🛠
 
 Aplicação que permite você criar, listar, editar, deletar e filtrar seus produtos em uma api.
 
@@ -6,7 +6,7 @@ Aplicação que permite você criar, listar, editar, deletar e filtrar seus prod
 
 ## **_Tecnologias Utilizadas_**
 
-##### NodeJS, Typescript, TypeORM, Express, Postgres, Swagger, Yup
+## NodeJS, Typescript, TypeORM, Express, Postgres, Swagger, Yup
 
 ---
 
