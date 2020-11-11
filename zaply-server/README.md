@@ -1,56 +1,53 @@
-## VUTTR -  ***Very Usefull Tools to Remember*** 🛠
+## Zaply Challenge\*\*\* 🛠
 
+Aplicação que permite você criar, listar, editar, deletar e filtrar seus produtos em uma api.
 
-Aplicação que armazena suas ferramentas favoritas. Nela, você pode criar, deletar, editar e listar todas as suas ferramentas favoritas.
+---
 
-----------------------------------
-
-## ***Tecnologias Utilizadas***
+## **_Tecnologias Utilizadas_**
 
 ##### NodeJS, Typescript, TypeORM, Express, Postgres, Swagger, Yup
 
-----------------------------------------------------
+---
 
-## ***Instalação | Execução***
+## **_Instalação | Execução_**
 
 Clone esse repositório rodando o comando:
 
-    git clone https://github.com/MarthinKorb/backend-VUTTR
+    git clone https://github.com/MarthinKorb/challenge-zaply/tree/master/zaply-server
 
-
-----------------------------------------------------
+---
 
 Abra o terminal na pasta do projeto e instale as dependências rodando o comando:
 
-    yarn 
+    yarn
 
 Agora vamos iniciar nosso servidor node rodando o comando:
 
     yarn dev
 
-No console, deverá aparecer a mensagem: *Server running on port 3333*
+No console, deverá aparecer a mensagem: _Server running on port 3000_
 
-_________________________________________________________________
-
+---
 
 ## Banco de Dados Postgres
 
-Nessa aplicação, é usado um container no docker para o serviço de banco de dados. 
+Nessa aplicação, é usado um container no docker para o serviço de banco de dados.
 Para informações sobre configuração do Postgres no Docker, acesse *https://hub.docker.com/_/postgres* ou ***https://typeorm.io/#/***
 
-***Obs: o arquivo orm.config é o responsável pelas configurações de banco de dados***
+**_Obs: o arquivo orm.config é o responsável pelas configurações de banco de dados_**
 
-Após a configuração do ***banco de dados***, rode o comando: 
-    
-    yarn typeorm migration:run    
-    
-Esse comando criará as tabelas no banco.  
+Após a configuração do **_banco de dados_**, rode o comando:
 
--------------------------------------------------
+    yarn typeorm migration:run
 
-## ***Swagger***
+Esse comando criará as tabelas no banco.
 
-Para acessar a documentação da API, com o servidor rodando, acesse *http://localhost:3333/api-docs/*
+---
+
+## **_Swagger_**
+
+Para acessar a documentação da API, com o servidor rodando, acesse _http://localhost:3333/api-docs/_
 
 <p align="center" border-radius="4px">
     <img src=".github/exp1.png" width=800">
@@ -60,12 +57,8 @@ Para acessar a documentação da API, com o servidor rodando, acesse *http://loc
     <img src=".github/exp5.png" width=800">
 </p>
 
-_____________________________________________________
+---
 
 **Feito!** ✔
 
-Agora é só adicionar as suas ferramentas favoritas na lista!
-
-----------------------------------------------------
-
-
+---
