@@ -41,7 +41,6 @@ const Dashboard: React.FC = () => {
       //searching all products in database
       const response = await api.get('/products');
       //setting the state with the response of api
-      console.log(response.data);
       setProducts(response.data);
     }
     loadProducts();
