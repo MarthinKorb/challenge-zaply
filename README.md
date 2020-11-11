@@ -1,6 +1,6 @@
 # Zaply Challenge 
 
-Aplicação que permite você criar, listar, editar, deletar e filtrar seus produtos.
+### Aplicação que permite você criar, listar, editar, deletar e filtrar seus produtos.
 
 ---
 
