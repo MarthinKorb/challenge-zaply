@@ -15,7 +15,7 @@ export default createGlobalStyle`
   }
 
   body, input, button {
-    font-family: '  ', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
     font-size: 16px;
   }
 
