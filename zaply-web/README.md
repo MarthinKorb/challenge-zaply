@@ -8,7 +8,7 @@ Aplicação que permite você criar, listar, editar, deletar e filtrar seus prod
 
 ### Tecnologias Utilizadas:
 
-## ReactJS, Typescript, StyledComponents, Jest, Axios, Yup,
+#### ReactJS, Typescript, StyledComponents, Jest, Axios, Yup,
 
 ---
 
