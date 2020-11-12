@@ -1,4 +1,4 @@
-# Zaply Challenge 🛠
+# Zaply Challenge 
 
 **Lista de Produtos**
 
@@ -8,7 +8,7 @@ Aplicação que permite você criar, listar, editar, deletar e filtrar seus prod
 
 ### Tecnologias Utilizadas:
 
-## ReactJS, Typescript, StyledComponents, Jest, Axios, Yup,
+#### ReactJS, Typescript, StyledComponents, Jest, Axios, Yup,
 
 ---
 
@@ -38,11 +38,11 @@ Clone esse repositório rodando o comando:
 
 Após, instale as dependências rodando o comando:
 
-    yarn
+    yarn ou npm -i
 
 Agora vamos iniciar nosso front-end:
 
-    yarn start
+    yarn start ou npm start
 
 ---
 
