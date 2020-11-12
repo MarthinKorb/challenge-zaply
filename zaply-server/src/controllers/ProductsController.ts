@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { getRepository } from "typeorm";
+import { getRepository, ILike } from "typeorm";
 
 import Product from "../models/Product";
 
@@ -13,10 +13,19 @@ export default {
 
     if (search) {
       const foundProducts = await productsRepository.find({
-        where: {
-          categories: search,
-        },
+        where: [
+          {
+            name: ILike(`%${search.toString().toLowerCase()}%`),
+          },
+          {
+            categories: ILike(`%${search}%`),
+          },
+          {
+            brand: ILike(`%${search}%`),
+          },
+        ],
       });
+
       return response.status(200).json(foundProducts);
     }
     const products = await productsRepository.find({
