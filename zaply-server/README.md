@@ -55,6 +55,9 @@ Para acessar a documentação da API, com o servidor rodando, acesse _http://loc
     <img src=".github/exp3.png" width=800">
     <img src=".github/exp4.png" width=800">
     <img src=".github/exp5.png" width=800">
+    <img src=".github/exp6.png" width=800">
+    <img src=".github/exp7.png" width=800">
+    <img src=".github/exp8.png" width=800">
 </p>
 
 ---
