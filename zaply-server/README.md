@@ -6,7 +6,7 @@ Aplicação que permite você criar, listar, editar, deletar e filtrar seus prod
 
 ## **_Tecnologias Utilizadas_**
 
-## NodeJS, Typescript, TypeORM, Express, Postgres, Swagger, Yup
+#### NodeJS, Typescript, TypeORM, Express, Postgres, Swagger, Yup
 
 ---
 
@@ -20,11 +20,11 @@ Clone esse repositório rodando o comando:
 
 Abra o terminal na pasta do projeto e instale as dependências rodando o comando:
 
-    yarn
+    yarn ou npm -i
 
 Agora vamos iniciar nosso servidor node rodando o comando:
 
-    yarn dev
+    yarn dev ou npm run dev
 
 No console, deverá aparecer a mensagem: _Server running on port 3000_
 
@@ -36,6 +36,8 @@ Nessa aplicação, é usado um container no docker para o serviço de banco de d
 Para informações sobre configuração do Postgres no Docker, acesse *https://hub.docker.com/_/postgres* ou ***https://typeorm.io/#/***
 
 **_Obs: o arquivo orm.config é o responsável pelas configurações de banco de dados_**
+
+Caso você tenha instalado o Postgres, você deverá ir no arquivo **_orm.config_** e mudar o **host** para o endereço do seu banco de dados.
 
 Após a configuração do **_banco de dados_**, rode o comando:
 
