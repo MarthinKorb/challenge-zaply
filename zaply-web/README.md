@@ -42,7 +42,7 @@ Após, instale as dependências rodando o comando:
 
 Agora vamos iniciar nosso front-end:
 
-    yarn start ou npm start
+    yarn dev ou npm start
 
 ---
 
