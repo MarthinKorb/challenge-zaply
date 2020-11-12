@@ -15,7 +15,7 @@ export default {
       const foundProducts = await productsRepository.find({
         where: [
           {
-            name: ILike(`%${search.toString().toLowerCase()}%`),
+            name: ILike(`%${search}%`),
           },
           {
             categories: ILike(`%${search}%`),
